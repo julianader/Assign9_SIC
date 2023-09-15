@@ -1,4 +1,8 @@
 const num = parseInt(prompt("Enter a Number:"));
 
-const result = num % 2 == 0 ? "Even" : "Odd";
-console.log(`This number is ${result}`);
+if (num%2==0){
+    console.log(`This Number is Even`);
+}
+else{
+    console.log(`This number is Odd`);
+}
