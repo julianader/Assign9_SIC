@@ -14,9 +14,12 @@ class HelloWorld {
             System.out.print("To add more = 1, To print = 0: ");
             ans = input.nextInt();
         }while(ans==1);
+        int sum=0;
         System.out.println("Array Output:");
         for (Integer num : vec) {         
             System.out.println("Number = " + num);
-        }       
+            sum=sum+num;
+        }
+        System.out.println("Sum = " + sum);
     }
 }
